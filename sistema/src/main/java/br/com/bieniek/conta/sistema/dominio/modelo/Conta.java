@@ -2,8 +2,7 @@ package br.com.bieniek.conta.sistema.dominio.modelo;
 
 import java.math.BigDecimal;
 
-import static br.com.bieniek.conta.sistema.dominio.modelo.Erro.obrigatorio;
-import static br.com.bieniek.conta.sistema.dominio.modelo.Erro.saldoInsuficiente;
+import static br.com.bieniek.conta.sistema.dominio.modelo.Erro.*;
 import static java.util.Objects.isNull;
 
 /**
