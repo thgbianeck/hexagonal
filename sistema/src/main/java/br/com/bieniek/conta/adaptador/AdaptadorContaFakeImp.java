@@ -11,8 +11,10 @@ import java.util.Map;
 
 import static java.util.Objects.isNull;
 
-// Responsável por implementar a porta de saída (driven) de serviços de banco de dados falso.
-// Sera gerenciado pelo IoC
+/**
+ * Responsável por implementar a porta de saída (driven) de serviços de banco de dados falso.
+ * Sera gerenciado pelo IoC
+ */
 @Named
 public class AdaptadorContaFakeImp implements ContaRepositorio {
 

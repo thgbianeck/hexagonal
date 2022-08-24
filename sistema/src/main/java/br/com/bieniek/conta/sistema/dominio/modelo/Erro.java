@@ -18,6 +18,6 @@ public class Erro {
     }
 
     public static void mesmaConta() {
-        throw new NegocioException("Conta débito e crédito devem ser diferentes.\");");
+        throw new NegocioException("Conta débito e crédito devem ser diferentes.");
     }
 }

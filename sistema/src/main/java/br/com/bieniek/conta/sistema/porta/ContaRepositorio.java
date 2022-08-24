@@ -2,6 +2,8 @@ package br.com.bieniek.conta.sistema.porta;
 
 import br.com.bieniek.conta.sistema.dominio.modelo.Conta;
 
+import javax.inject.Named;
+
 /**
  * Responsável por definir a porta de saída (driven) de serviços de banco de dados.
  */
